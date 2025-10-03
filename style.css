@@ -1,0 +1,93 @@
+#autok-main {
+    background-color: darkblue;
+}
+#autok-body{
+    max-width: 750px;
+    margin: auto;
+    background-color: lightblue;
+    padding: 10px;
+}
+#autok1{
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-title{
+    color: blue;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-title{
+    color: blue;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-right{
+    float: right;
+    height: auto;
+    margin: 1rem;
+}
+.image-left{
+    float: left;
+    height: auto;
+    margin: 1rem;
+}
+.car-block{
+    text-align: justify;
+    padding: 1rem;
+    border-bottom: 1px solid black; /* fekete, sima alsó vonal */
+
+}
+.car-block p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#egyiptom-background {
+    margin-top: auto;
+    margin-bottom:  auto;
+    padding: 0;
+    background-image: url(kepek/egyiptomihatter.jpg);
+    background-size: justify;
+}
+#egyiptom {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    background-color: rgba(249, 220, 127, 0.788);
+    text-align: justify;
+}
+#egyiptom1{
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.egyiptom2 {
+    color: red;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    border-bottom: 2px solid red ;
+    border-top: 2px solid red ;
+}
+#nilus-image {
+    float: right;
+    height: justify;
+    border: 2px red dashed;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+#karnak-image {
+    float: left;
+    height: justify;
+    border: 2px red dashed;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+}

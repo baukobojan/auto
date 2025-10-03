@@ -1,53 +1,64 @@
 #autok-main {
     background-color: darkblue;
 }
-#autok-body{
+
+#autok-body {
     max-width: 750px;
     margin: auto;
     background-color: lightblue;
     padding: 10px;
 }
-#autok1{
+
+#autok1 {
     color: blue;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.left-title{
+
+.left-title {
     color: blue;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
-.right-title{
+
+.right-title {
     color: blue;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
 }
-.image-right{
+
+.image-right {
     float: right;
     height: auto;
     margin: 1rem;
 }
-.image-left{
+
+.image-left {
     float: left;
     height: auto;
     margin: 1rem;
 }
-.car-block{
+
+.car-block {
     text-align: justify;
     padding: 1rem;
-    border-bottom: 1px solid black; /* fekete, sima alsó vonal */
+    border-bottom: 1px solid black;
+    /* fekete, sima alsó vonal */
 
 }
-.car-block p{
+
+.car-block p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #egyiptom-background {
     margin-top: auto;
-    margin-bottom:  auto;
+    margin-bottom: auto;
     padding: 0;
     background-image: url(kepek/egyiptomihatter.jpg);
     background-size: justify;
 }
+
 #egyiptom {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -59,7 +70,8 @@
     background-color: rgba(249, 220, 127, 0.788);
     text-align: justify;
 }
-#egyiptom1{
+
+#egyiptom1 {
     color: red;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -67,14 +79,16 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .egyiptom2 {
     color: red;
     text-align: center;
     font-size: 300%;
     font-weight: bold;
-    border-bottom: 2px solid red ;
-    border-top: 2px solid red ;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
 }
+
 #nilus-image {
     float: right;
     height: justify;
@@ -83,6 +97,7 @@
     margin-bottom: 1rem;
 
 }
+
 #karnak-image {
     float: left;
     height: justify;
@@ -90,4 +105,65 @@
     margin-right: 1rem;
     margin-bottom: 1rem;
 
+}
+
+#index-body {
+    max-width: 100rem;
+    margin: 0;
+    padding: 10rem;
+    text-align: center;
+    background-image: url('kepek/egyiptomihatter.jpg');
+}
+
+#index1 {
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    height: 35vw;
+    width: 75vw;
+    margin: auto;
+}
+
+.left,
+.right {
+    flex: 1;
+    background-size: justify;
+    background-position: center;
+    position: relative;
+}
+
+
+
+.button-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-weight: 600;
+    
+    
+}
+
+.button-center a {
+
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: justify;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+}
+
+.button-center a:hover {
+    background-color: rgba(249, 220, 127, 0.788);
 }
